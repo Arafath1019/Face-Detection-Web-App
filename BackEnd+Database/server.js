@@ -9,9 +9,9 @@ const db = knex({
   client: 'pg',
   connection: {
     host : '127.0.0.1',
-    user : 'postgres',
-    password : '101990100307',
-    database : 'smartbrain'
+    user : 'YOUR_DATABASE_USER_NAME',
+    password : 'YOUR_DATABASE_PASSWORD',
+    database : 'YOUR_DATABASE_NAME'
   }
 });
 
@@ -119,13 +119,3 @@ app.listen(3000, () =>{
     console.log('app is running on port 3000');
 });
 
-
-//Smart Brain Project API planning
-/*
-/ --> res = this is working
-/signin --> POST = success/fail
-/register --> POST = user
-/profile/:userId --> GET = user
-/image --> PUT = user
-
-*/

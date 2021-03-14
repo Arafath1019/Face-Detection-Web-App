@@ -13,7 +13,7 @@ import './App.css';
 
 //Clarifai API Section-start
 const app = new Clarifai.App({
- apiKey: '317668be6b9645f6a72df2aad20c87df'
+ apiKey: 'YOUR_API_KEY'
 });
 
 //Clarifai api section-end
